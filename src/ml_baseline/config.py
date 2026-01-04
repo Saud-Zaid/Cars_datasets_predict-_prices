@@ -1,4 +1,5 @@
 from pathlib import Path
+from dataclasses import dataclass
 
 class Paths:
     def __init__(self, root: Path):
